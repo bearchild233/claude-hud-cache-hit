@@ -3,7 +3,7 @@
 A Claude Code statusline plugin based on [claude-hud](https://github.com/jarrodwatts/claude-hud). It adds cache-hit metrics while retaining context health, tool activity, agents, todos, and usage indicators.
 
 ## Highlights
-
+- dependent on [claude-hud](https://github.com/jarrodwatts/claude-hud), that means you should install this plugin first.
 - Context row shows cumulative token totals.
 - Shows current-request and session-average cache-hit rates.
 - Uses `CLAUDE_STATUS_FILE.cacheHitPercent` when available, with transcript totals as a fallback.
@@ -17,6 +17,8 @@ Context █████░░░░░ 45% Tokens 20.3M (in: 14.6M, out: 14k, ca
 ```
 
 ## Install After Publishing
+
+Step 0: Install [claude-hud](https://github.com/jarrodwatts/claude-hud).
 
 ```text
 /plugin marketplace add https://github.com/bearchild233/claude-hud-cache-hit
