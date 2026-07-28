@@ -1,0 +1,28 @@
+{
+  "name": "claude-hud-cache-hit",
+  "owner": {
+    "name": "Publish before release",
+    "email": "replace-before-release@example.com"
+  },
+  "metadata": {
+    "description": "Marketplace for Claude HUD Cache Hit.",
+    "version": "0.7.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-hud-cache-hit",
+      "source": "./",
+      "description": "Statusline HUD with context health, token totals, and current/session-average cache hit rates.",
+      "version": "0.7.0",
+      "category": "monitoring",
+      "tags": [
+        "hud",
+        "statusline",
+        "monitoring",
+        "context",
+        "prompt-cache",
+        "cache-hit-rate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "claude-hud-cache-hit",
+  "description": "Claude Code statusline HUD with cache-hit metrics.",
+  "version": "0.7.0",
+  "author": {
+    "name": "Publish before release",
+    "url": "https://github.com/REPLACE_BEFORE_RELEASE"
+  },
+  "commands": [
+    "./commands/setup.md",
+    "./commands/configure.md"
+  ],
+  "homepage": "https://github.com/REPLACE_BEFORE_RELEASE/claude-hud-cache-hit",
+  "repository": "https://github.com/REPLACE_BEFORE_RELEASE/claude-hud-cache-hit",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "hud",
+    "monitoring",
+    "statusline",
+    "context",
+    "prompt-cache",
+    "cache-hit-rate"
+  ]
+}
