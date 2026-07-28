@@ -18,10 +18,9 @@ Context █████░░░░░ 45% Tokens 20.3M (in: 14.6M, out: 14k, ca
 
 ## 发布后的安装方式
 
-发布前请将 `REPLACE_BEFORE_RELEASE/claude-hud-cache-hit` 换成实际 GitHub 仓库。
 
 ```text
-/plugin marketplace add REPLACE_BEFORE_RELEASE/claude-hud-cache-hit
+/plugin marketplace add https://github.com/bearchild233/claude-hud-cache-hit
 /plugin install claude-hud-cache-hit@claude-hud-cache-hit
 /reload-plugins
 /claude-hud-cache-hit:setup

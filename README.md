@@ -18,10 +18,8 @@ Context █████░░░░░ 45% Tokens 20.3M (in: 14.6M, out: 14k, ca
 
 ## Install After Publishing
 
-Replace `REPLACE_BEFORE_RELEASE/claude-hud-cache-hit` with the repository you publish.
-
 ```text
-/plugin marketplace add REPLACE_BEFORE_RELEASE/claude-hud-cache-hit
+/plugin marketplace add https://github.com/bearchild233/claude-hud-cache-hit
 /plugin install claude-hud-cache-hit@claude-hud-cache-hit
 /reload-plugins
 /claude-hud-cache-hit:setup

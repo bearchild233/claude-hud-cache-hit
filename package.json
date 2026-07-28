@@ -28,7 +28,7 @@
     "prompt-cache",
     "cache-hit-rate"
   ],
-  "author": "Publish before release",
+  "author": "bearchild233",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
